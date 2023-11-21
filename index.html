@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Ferrari</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Lucas Ferrari</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#experience">Experiência</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Lucas Ferrari</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="abreMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="abreMenu()">Sobre</a></li>
+          <li><a href="#experience" onclick="abreMenu()">Experiência</a></li>
+          <li><a href="#projects" onclick="abreMenu()">Projetos</a></li>
+          <li><a href="#contact" onclick="abreMenu()">Contato</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/prof-pic.png" alt="Foto de Lucas Ferrari" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Oi, eu sou</p>
+        <h1 class="title">Lucas Ferrari</h1>
+        <p class="section__text__p2">Estudante de Ciências da Computação</p>
+        <div class="btn-container">
+         
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contato
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            alt="Meu Perfil no LinkedIn"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/lucas-ferrari-19033926a/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            alt="Meu Perfil no GitHub"
+            class="icon"
+            onclick="location.href='https://github.com/LucasFerrari1'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Leia sobre</p>
+      <h1 class="title">Sobre Mim</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/pic-exp.jpg"
+            alt="Profile picture"
+            alt="Foto de Lucas Ferrari"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                alt="Experiência"
+                class="icon"
+              />
+              <h3>Experiência</h3>
+              <p>5 Meses - Sicredi <br />Estagiário</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                alt="Educação"
+                class="icon"
+              />
+              <h3>Educação</h3>
+              <p>Estudante da Atitus Educação - 2° Semestre<br />Cursando Ciências da Computação</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Uma pessoa tranquila, que possui uma curiosidade grande o suficiente para entender
+              o que for necessário para ajudar, e com uma grande fome por conhecimento. Estou cursando 
+              Ciências da Computação pela faculdade "Atitus Educação", e estou trabalhando na área de computação, na 
+              Superintendência Regional do Sicredi em Marau. Possuo Experiência com PowerBI, programação
+              em Python, formatação e modelagem de dados. Atualmente faço cursos para expandir ainda mais
+              o meu conhecimento. Meu objetivo profissional é me tornar um bom programador, e especificamente
+              ser cientista de dados.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        alt="Flecha"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Leia sobre</p>
+      <h1 class="title">Experiência</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Capacitações</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  alt="Experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>2° Semestre</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  alt="Experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>2° Semestre</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  alt="Experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>DAX</h3>
+                  <p>Aprendendo</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  alt="Experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>2° Semestre</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  alt="Experiência"
+                  class="icon"
+                  
+
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>1° Semestre</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  alt="Experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>Inglês</h3>
+                  <p>Avançado</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Aplicativos</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  alt="Experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  alt="Experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>PowerBI</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  alt="Experiência"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        alt="Flecha"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+      <section id="projects">
+        <p class="section__text__p1">Leia sobre</p>
+        <h1 class="title">Projetos</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/purplay.jpeg"
+              alt="Logo do Purplay"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                
+                <h3>Purplay</h3>
+                <p>Projeto feito em aula<br />Player de Música</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Este projeto, inicialmente conhecido como "AtituSound", foi realizado 
+                por toda a turma no segundo semestre do curso de Ciências da Computação,
+                para entendermos sobre APIs, UX e UI e FrontEnd. Trata-se de uma API, feita
+                completamente do zero pelos integrantes do grupo. Utilizamos Java para fazer
+                a parte Back-End, e para mostrar a parte frontal, uma SPA. 
+                Mesmo sendo algo considerado "simplório", é o começo da nossa jornada.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          alt="Flecha"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Vamos Conversar!</p>
+      <h1 class="title">Contatos</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            alt="Email"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:lucas.f.ferrari10@gmail.com">Meu E-Mail</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            alt="LinkedIn"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/lucas-ferrari-19033926a/">Meu LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiência</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contatos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
